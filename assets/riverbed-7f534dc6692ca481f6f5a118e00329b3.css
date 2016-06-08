@@ -313,21 +313,24 @@ footer {
   }
 }
 
-@media all and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   
-  #issue-desc:before {
-      content: "";
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      background: hsla(40,10%,50%,0.5);
+  #issue-desc {
+    background-image: url(../images/kingsdark.jpeg);
   }
 
-  .menu-item:before {
-      content: "";
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      background: hsla(40,10%,30%,0.9);
+  .menu-item {
+    background-image: url(../images/canoedark.jpg);
   }
+  
+  .form .button {
+    background-color: hsl(0,100%,100%);
+    color: black;
+    width: 100px;
+  }
+  
+  .button:active {
+  background-color: hsl(0,0%,90%);
+  border-color: transparent;
+}
 }
