@@ -1,0 +1,16 @@
+#issue-desc:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: hsla(40,10%,50%,0.5);
+}
+
+.menu-item:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: hsla(40,10%,30%,0.9);
+}
+
