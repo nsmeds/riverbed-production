@@ -1,0 +1,11 @@
+<h2>Submit to Riverbed</h2>
+<p>To submit your work for consideration for publication, please upload it below, as a .pdf file if possible. We can also accept .docx, .doc, .rtf and .txt files, but we prefer .pdf for formatting consistency and compatibility.</p>
+<div class='form'>
+{{input type='name' placeholder='Your name' name='name'}}
+{{input type='email' placeholder='Your email' name='email'}}
+<!--
+{{input type='file' name='Submission' accept='.pdf,.docx,.doc,.rtf,.txt'}}
+-->
+{{file-upload url="/upload"}}
+{{input type='submit' name='Submit' class='button'}}
+</div>
