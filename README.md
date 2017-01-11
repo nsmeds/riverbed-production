@@ -1,11 +1,10 @@
 # Riverbed
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an online literary magazine application with an Ember frontend and a Node/Express/MongoDB backend with RESTful routing.
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+To collaborate, you will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
@@ -41,7 +40,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+TBA
 
 ## Further Reading / Useful Links
 
